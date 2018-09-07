@@ -11,4 +11,4 @@ class YAMLFiltersParser(BaseSqlaParser):
     def _generate_filters_tree(self) -> SqlaFilterTree:
         yaml_dict = yaml.load(self._raw_data)
         print(yaml_dict)
-        return SqlaFilterTree()
+        # return SqlaFilterTree()

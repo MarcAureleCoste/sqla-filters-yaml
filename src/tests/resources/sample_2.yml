@@ -1,0 +1,20 @@
+---
+type: and
+data:
+- type: or
+  data:
+  - type: operator
+    data:
+      attribute: name
+      operator: eq
+      value: toto
+  - type: operator
+    data:
+      attribute: name
+      operator: eq
+      value: tata
+- type: operator
+  data:
+    attribute: age
+    operator: eq
+    value: 21

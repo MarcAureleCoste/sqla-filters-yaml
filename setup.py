@@ -24,10 +24,6 @@ def read(file_path: str):
     with open(file_path) as f:
         return f.read()
 
-# REQUIRE: List[str] = [
-#     'sqlalchemy'
-# ]
-
 REQUIRE: List[str] = get_requirements()
 
 DEV_REQUIRE: List[str] = [

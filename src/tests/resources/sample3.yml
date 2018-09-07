@@ -1,0 +1,27 @@
+---
+type: and
+data:
+- type: or
+  data:
+  - type: operator
+    data:
+      attribute: name
+      operator: eq
+      value: toto
+  - type: or
+    data:
+    - type: operator
+      data:
+        attribute: name
+        operator: like
+        value: t%
+    - type: operator
+      data:
+        attribute: name
+        operator: like
+        value: "%o"
+- type: operator
+  data:
+    attribute: age
+    operator: eq
+    value: 21
