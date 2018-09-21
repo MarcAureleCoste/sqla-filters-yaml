@@ -1,5 +1,5 @@
 """Exceptions raised by the parser class."""
 
 
-class FiltersParserTypeError(Exception):
+class YAMLFiltersParserTypeError(Exception):
     pass
