@@ -33,7 +33,8 @@ DEV_REQUIRE: List[str] = [
     'ipython',
     'mypy',
     'pytest',
-    'rope'
+    'rope',
+    'sphinx'
 ]
 
 setup(
