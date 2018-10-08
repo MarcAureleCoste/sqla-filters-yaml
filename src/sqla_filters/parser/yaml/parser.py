@@ -1,14 +1,14 @@
 import yaml
 from typing import Any
 
-from sqla_filters.filter import (
-    TreeNode,
+from sqla_filters.nodes.base import TreeNode
+from sqla_filters.nodes.logical import(
     OrNode,
     AndNode,
-    SqlaFilterTree,
-    OPERATOR_NODES,
     LOGICAL_NODES
 )
+from sqla_filters.nodes.operational import OPERATIONAL_NODES
+from sqla_filters.tree import SqlaFilterTree
 from sqla_filters.parser.base import BaseSqlaParser
 from .exceptions import YAMLFiltersParserTypeError
 
@@ -31,7 +31,7 @@ class YAMLFiltersParser(BaseSqlaParser):
         elif key == 'operator':
             operator = data.get('operator')
             attr_sep = data.get('attr_sep', None)
-            return OPERATOR_NODES[operator](
+            return OPERATIONAL_NODES[operator](
                 data.get('attribute', ''),
                 data.get('value', None),
                 attr_sep=attr_sep if attr_sep else self._attr_sep

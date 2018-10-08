@@ -22,7 +22,7 @@ sudo apt install libyaml-dev
 # Installation
 
 ```bash
-pip install sqla-filter
+pip install sqla-filter-yaml
 ```
 
 # Getting Started
