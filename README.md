@@ -1,10 +1,13 @@
+# Sqla-filters-yaml
 
-# Introduction 
+Add yaml parser to the sqla-filters package.
+
+## Introduction 
 
 Add YAML support to sqla-filters.
 
 
-# Requirements
+## Requirements
 
 This package use the python package `pyyaml`. To install pyyaml you need to have the **yaml.h** header file. If it's not
 present on your system you need to install the libyaml-dev package.
@@ -19,34 +22,15 @@ sudo dnf install libyaml-devel
 sudo apt install libyaml-dev
 ```
 
-# Installation
+## Installation
 
 ```bash
 pip install sqla-filter-yaml
 ```
 
-# Getting Started
+## Getting Started
 
-Create an instance of the YAMLilterParser with the json string.
-
-Example:
-```python
-# Sqlalchemy setup ... + model definition
-
-# Create a JSON parser instance
-parser = YAMLiltersParser(raw_json_string)
-
-# You can finaly filter your query
-query = session.query(Post)
-filtered_query = parser.tree.filter(query)
-
-# Get the results
-query.all()
-```
-
-## Formats
-
-### YAML
+### YAML format
 
 ```yml
 ---
@@ -71,7 +55,26 @@ data:
     value: 21
 ```
 
-/!\ Yaml format can change in the futur. /!\
+:warning: Yaml format can change in the futur. :warning:
+
+### Example code
+
+Create an instance of the YAMLilterParser from the yaml string / document.
+
+Example:
+```python
+# Sqlalchemy setup + model definition
+
+# Create a YAML parser instance
+parser = YAMLiltersParser(raw_json_string)
+
+# You can finaly filter your query
+query = session.query(Post)
+filtered_query = parser.tree.filter(query)
+
+# Get the results
+query.all()
+```
 
 ### Result tree
 

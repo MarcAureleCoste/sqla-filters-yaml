@@ -34,7 +34,8 @@ DEV_REQUIRE: List[str] = [
     'mypy',
     'pytest',
     'rope',
-    'sphinx'
+    'sphinx',
+    'twine'
 ]
 
 setup(
@@ -62,7 +63,6 @@ setup(
     ],
 
     install_requires=REQUIRE,
-    # packages=find_packages('src'),
     packages=(
         'sqla_filters.parser.yaml',
     ),
