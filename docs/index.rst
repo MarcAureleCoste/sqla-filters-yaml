@@ -7,17 +7,17 @@
 sqla-filters-yaml : Build filter tree from YAML
 ===============================================
 
-.. image:: https://img.shields.io/pypi/v/sqla-filters.svg
-    :target: https://pypi.org/project/sqla-filters/
+.. image:: https://img.shields.io/pypi/v/sqla-filters-yaml.svg
+    :target: https://pypi.org/project/sqla-filters-yaml/
 
-.. image:: https://img.shields.io/pypi/l/sqla-filters.svg
-    :target: https://pypi.org/project/sqla-filters/
+.. image:: https://img.shields.io/pypi/l/sqla-filters-yaml.svg
+    :target: https://pypi.org/project/sqla-filters-yaml/
 
-.. image:: https://img.shields.io/pypi/wheel/sqla-filters.svg
-    :target: https://pypi.org/project/sqla-filters/
+.. image:: https://img.shields.io/pypi/wheel/sqla-filters-yaml.svg
+    :target: https://pypi.org/project/sqla-filters-yaml/
 
-.. image:: https://img.shields.io/pypi/pyversions/sqla-filters.svg
-    :target: https://pypi.org/project/sqla-filters/
+.. image:: https://img.shields.io/pypi/pyversions/sqla-filters-yaml.svg
+    :target: https://pypi.org/project/sqla-filters-yaml/
 
 .. image:: https://img.shields.io/discord/479781351051100170.svg?logo=discord
     :target: https://discord.gg/eQ4Mtc8

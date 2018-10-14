@@ -1,5 +1,10 @@
 # Sqla-filters-yaml
 
+![version](https://img.shields.io/pypi/v/sqla-filters-yaml.svg)
+![license](https://img.shields.io/pypi/l/sqla-filters-yaml.svg)
+![wheel](https://img.shields.io/pypi/wheel/sqla-filters-yaml.svg)
+![pyversions](https://img.shields.io/pypi/pyversions/sqla-filters-yaml.svg)
+
 Add yaml parser to the sqla-filters package.
 
 ## Introduction 
