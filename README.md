@@ -1,5 +1,7 @@
 # Sqla-filters-yaml
 
+![AzurePipeline](https://marc-aurele.visualstudio.com/sqla-filters/_apis/build/status/MarcAureleCoste.sqla-filters-yaml)
+
 Add yaml parser to the sqla-filters package.
 
 ## Introduction 
