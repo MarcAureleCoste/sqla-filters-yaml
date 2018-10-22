@@ -4,6 +4,7 @@
 ![license](https://img.shields.io/pypi/l/sqla-filters-yaml.svg)
 ![wheel](https://img.shields.io/pypi/wheel/sqla-filters-yaml.svg)
 ![pyversions](https://img.shields.io/pypi/pyversions/sqla-filters-yaml.svg)
+[![Updates](https://pyup.io/repos/github/MarcAureleCoste/sqla-filters-yaml/shield.svg)](https://pyup.io/repos/github/MarcAureleCoste/sqla-filters-yaml/)
 
 Add yaml parser to the sqla-filters package.
 
