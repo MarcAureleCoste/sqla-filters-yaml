@@ -1,0 +1,8 @@
+---
+type: and
+data:
+- type: operator
+  data:
+    attribute: name
+    operator: contains
+    value: to
